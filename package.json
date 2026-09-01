@@ -1,0 +1,27 @@
+{
+  "name": "build-the-garden",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Collaborative 3D garden-building sandbox",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:server": "node server/garden-server.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.3.0",
+    "@react-three/fiber": "^9.6.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.174.0",
+    "ws": "^8.21.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.0",
+    "vite": "^6.2.0",
+    "vitest": "^4.1.10"
+  }
+}
